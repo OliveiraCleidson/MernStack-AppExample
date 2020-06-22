@@ -24,3 +24,8 @@ Create a file '.env' in backend folder, write in file:
 ```sh
 ATLAS_URI=mongodb+srv://<dbUser>:<dbUserPassword>@<url>
 ```
+
+Example
+```sh
+ATLAS_URI=mongodb+srv://user:pass123@cluster.mongodb.net/database?retryWrites=true&w=majority
+```
